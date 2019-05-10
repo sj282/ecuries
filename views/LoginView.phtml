@@ -1,0 +1,28 @@
+<h2>Connexion Administrateur</h2>
+<section class="section_login">
+    <form action="index.php" method="post">
+        <fieldset>
+            <legend>code d'accès</legend>
+            <ul>
+                <li>
+                    <input type="text" name="action" value="loginAdmin" hidden>
+                </li>
+                <li>
+                    <label for="email">E-mail :</label>
+                    <input type="email" id="email" name="email" required>
+                </li>
+                <li>
+                    <label for="password">Mot de passe :</label>
+                    <input type="password" id="password" name="password" required>
+                </li>
+                <?php if(isset($_SESSION['error'])): ?>
+                    <p class="error"><?= $_SESSION['error'] ?></p>
+                    <?php unset($_SESSION['error']) ?>
+                <?php endif ?>
+                <li class="btn_confirm">
+                    <button type="submit">Valider</button>
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+</section>

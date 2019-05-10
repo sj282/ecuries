@@ -1,0 +1,39 @@
+<h2>Modifier votre compte administrateur</h2>
+<ul class="navAdmin">
+        <li><a href="?page=logout"><i class="fas fa-sign-out-alt"></i> Deconnexion</a></li>
+        <li><a href="?page=editAdmin"><i class="fas fa-user-edit"></i> Modifier votre compte</a></li>
+        <li><a href="?page=admin"><i class="fas fa-list-ul"></i> Affichage des réservations</a></li>
+    </ul>
+<section class="section_edit">
+    <form action="index.php" method="POST">
+        <ul> 
+            <li>
+                <?php if(isset($_SESSION['error'])): ?>
+                    <p class="error"><?= $_SESSION['error'] ?></p>
+                    <?php unset($_SESSION['error']) ?>
+                <?php endif ?>   
+            </li>
+            <li>
+                <input type="text" name="action" value="editLogin" hidden>
+            </li>
+            <li>
+                <label for="newEmail">Modification de l'E-mail :</label>
+                <small>Si vous ne souhaitez pas modifier l'e-mail, ne modifiez pas ce champ</small>
+                <input type="email" id="newEmail" name="newEmail" value="<?= $adminLogin['email'] ?>" required>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <label for="newPassword">Modification du mot de passe :</label>
+                <input type="password" id="newPassword" name="newPassword" required>
+            </li>
+            <li>
+                <label for="checkNewPassword">Confirmation du nouveau mot de passe :</label>
+                <input type="password" id="checkNewPassword" name="checkNewPassword" required>
+            </li>
+            <li class="btn_confirm">
+                <button type="submit">confirmer</button>
+            </li>
+        </ul>
+    </form>
+</section>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/check.css">
+    <title>Les écuries du vieux moulin</title>
+</head>
+<body>
+
+    <header>
+        <div class="header_container">
+            <a href="#" id="linkFb"><i class="fab fa-facebook-square"></i></a>
+            <img src="img/cheval_opacite_brun" alt="#" id="opacite">
+            <a href="index.php" class="logo_img"><img src="img/logo fond beige.png" alt="Les écuries du vieux moulin"></a>
+            <h1 class="logo_title"><span id="ecuries">Ecuries</span>du Vieux Moulin</h1>
+        </div>
+        <nav class="nav_header">
+            <ul>
+                <li><a href="?page=home">Accueil</a></li>
+                <li><a href="?page=team">Notre équipe</a></li>
+                <li><a href="?page=services">Nos Prestations</a></li>
+                <li><a href="?page=installations">Nos installations</a></li>
+                <li><a href="?page=galery">Galerie photos</a></li>
+                <li><a href="?page=contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <?php include 'views/' . $template . 'View.phtml' ?>
+    </main>
+
+    <footer>
+        <div>
+            <ul>
+                <li><a href="https://www.ffe.com/"><img src="img/Logo-ffe.png" alt="Fédération française d'équitation" id="logo_ffe"></a></li>
+            </ul>
+            <address id="adress_footer">
+                Ferme du vieux moulin, rue de Tenteling <br>
+                57200 Sarreguemines - TEL : 06 75 40 08 97
+            </address>
+        </div>
+        <nav class="nav_footer">
+            <ul>
+                <li><a href="?page=home"><i class="fas fa-home"></i>Accueil</a></li>
+                <li><a href="?page=team"><i class="fas fa-users"></i>Notre équipe</a></li>
+                <li><a href="?page=services"><i class="fas fa-horse-head"></i>Nos Prestations</a></li>
+                <li><a href="?page=installations"><i class="fas fa-warehouse"></i>Nos installations</a></li>
+                <li><a href="?page=galery"><i class="fas fa-images"></i>Galerie photos</a></li>
+                <li><a href="?page=contact"><i class="fas fa-address-card"></i>Contact</a></li>
+                <li><a href="?page=admin"><i class="fas fa-user-cog"></i>Administration</a></li>
+            </ul>
+        </nav>
+        <small>© tous droits réservés</small>
+    </footer>
+
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

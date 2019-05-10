@@ -1,0 +1,9 @@
+<?php foreach ($bookings as $booking): ?>
+    <tr>
+        <td><a href="index.php?id=<?= $booking['id'] ?>" id="linkBooking"><?= $booking['lastName'] ?></a></td>
+        <td><?= htmlspecialchars($booking['firstName']) ?></td>
+        <td class="dateOfArrival"><?= htmlspecialchars($booking['come']) ?></td>
+        <td><?= htmlspecialchars($booking['creationDate']) ?></td>
+        <td><input type="checkbox" value="<?= $booking['id'] ?>"></td>
+    </tr>
+<?php endforeach ?>

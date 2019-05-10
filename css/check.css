@@ -1,0 +1,12 @@
+form span {
+    color: red;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+.noError {
+    display: none;
+} 

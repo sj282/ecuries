@@ -1,0 +1,22 @@
+<h2>Page Administrateur</h2>
+<nav>
+    <ul class="navAdmin">
+        <li><a href="?page=logout"><i class="fas fa-sign-out-alt"></i> Deconnexion</a></li>
+        <li><a href="?page=editAdmin"><i class="fas fa-user-edit"></i> Modifier votre compte</a></li>
+        <li><a href="?page=admin"><i class="fas fa-list-ul"></i> Affichage des réservations</a></li>
+    </ul>
+</nav>
+<section>
+    <h3>Affichage du client</h3>
+<ul class="customerList">
+    <li>Prénom : <span><?= htmlspecialchars($booking['firstName']) ?></span></li>
+    <li>Nom : <span><?= htmlspecialchars($booking['lastName']) ?></span></li>
+    <li>Adresse : <span><?= htmlspecialchars($booking['address']) ?></span></li>
+    <li>Ville : <span><?= htmlspecialchars($booking['city']) ?></span></li>
+    <li>Code Postal : <span><?= htmlspecialchars($booking['zipCode']) ?></span></li>
+    <li>Téléphone : <span><?= htmlspecialchars($booking['phone']) ?></span></li>
+    <li>E-mail : <span><?= htmlspecialchars($booking['email']) ?></span></li>
+    <li>Date d'arrivée : <span><?= htmlspecialchars($booking['come']) ?></span></li>
+    <li>Préférence de contact : <span><?= htmlspecialchars($contact) ?></span></li>
+    <li>Date d'enregistrement de la réservation : <span><?= htmlspecialchars($booking['creationDate']) ?></span></li>
+</ul>

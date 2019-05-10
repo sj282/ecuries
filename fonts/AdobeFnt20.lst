@@ -1,0 +1,303 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Boton-Medium
+FamilyName:Boton
+StyleName:Medium
+MenuName:Boton Regular
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Boton Medium
+WritingScript:Roman
+OutlineFileName:/Users/mariebourg/Desktop/ECURIE_JO/ASS2_ECURIE_JO/Document fonts/BotonMed
+DataFormat:POSTResource
+UsesStandardEncoding:yes
+isCFF:no
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:37097
+FileModTime:-184438805
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Boton-Medium
+OutlineFileName:/Users/mariebourg/Desktop/ECURIE_JO/ASS2_ECURIE_JO/Document fonts/Boton-Medium
+ResourceID:6485
+MacStyle:0
+FileLength:21321
+FileModTime:569333266
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:DIN-Regular
+FamilyName:DIN
+StyleName:Regular
+MenuName:DIN-Regular
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:DIN-Regular
+WritingScript:Roman
+OutlineFileName:/Users/mariebourg/Desktop/ECURIE_JO/ASS2_ECURIE_JO/Document fonts/DINReg
+DataFormat:POSTResource
+UsesStandardEncoding:no
+isCFF:no
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:34395
+FileModTime:30478312
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:DIN-Bold
+FamilyName:DIN
+StyleName:Bold
+MenuName:DIN-Bold
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:DIN-Bold
+WritingScript:Roman
+OutlineFileName:/Users/mariebourg/Desktop/ECURIE_JO/ASS2_ECURIE_JO/Document fonts/DINBol
+DataFormat:POSTResource
+UsesStandardEncoding:no
+isCFF:no
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:35159
+FileModTime:265536686
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:BrillianttePresonalUseOnly
+FamilyName:Brilliantte Presonal Use Only
+StyleName:Regular
+MenuName:Brilliantte Presonal Use Only
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Brilliantte Presonal Use Only
+WritingScript:Roman
+OutlineFileName:/Users/mariebourg/Desktop/ECURIE_JO/ASS2_ECURIE_JO/Document fonts/Brilliantte Personal Use Only.otf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:139320
+FileModTime:569030894
+NameArray:0,Mac,4,Brilliantte Presonal Use Only
+NameArray:0,Win,1,Brilliantte Presonal Use Only
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:DIN-Regular
+OutlineFileName:/Users/mariebourg/Desktop/ECURIE_JO/ASS2_ECURIE_JO/Document fonts/DIN Regular
+ResourceID:14459
+MacStyle:0
+FileLength:10097
+FileModTime:334595388
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Poppins-Regular
+FamilyName:Poppins
+StyleName:Regular
+MenuName:Poppins
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Poppins
+WritingScript:Roman
+OutlineFileName:/Users/mariebourg/Desktop/ECURIE_JO/ASS2_ECURIE_JO/Document fonts/Poppins-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:256920
+FileModTime:513216880
+NameArray:0,Win,1,Poppins
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ArialMTPro-LightCond
+FamilyName:Arial MT Pro
+StyleName:Light Cond
+MenuName:Arial MT Pro Light Cond
+StyleBits:0
+WeightClass:300
+WidthClass:3
+AngleClass:0
+FullName:Arial MT Pro Light Cond
+WritingScript:Roman
+OutlineFileName:/Users/mariebourg/Desktop/ECURIE_JO/ASS2_ECURIE_JO/Document fonts/ArialMTPro-LightCond.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:56584
+FileModTime:570940492
+NameArray:0,Mac,4,Arial MT Pro Light Cond
+NameArray:0,Win,1,Arial MT Pro Light Cond
+NameArray:0,Win,16,Arial MT Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:DIN-Bold
+OutlineFileName:/Users/mariebourg/Desktop/ECURIE_JO/ASS2_ECURIE_JO/Document fonts/FFDIN
+ResourceID:14461
+MacStyle:0
+FileLength:139478
+FileModTime:-110559440
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:DIN-Light
+OutlineFileName:/Users/mariebourg/Desktop/ECURIE_JO/ASS2_ECURIE_JO/Document fonts/FFDIN
+ResourceID:14458
+MacStyle:0
+FileLength:139478
+FileModTime:-110559440
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:DIN-Medium
+OutlineFileName:/Users/mariebourg/Desktop/ECURIE_JO/ASS2_ECURIE_JO/Document fonts/FFDIN
+ResourceID:14460
+MacStyle:0
+FileLength:139478
+FileModTime:-110559440
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:DIN-Regular
+OutlineFileName:/Users/mariebourg/Desktop/ECURIE_JO/ASS2_ECURIE_JO/Document fonts/FFDIN
+ResourceID:14459
+MacStyle:0
+FileLength:139478
+FileModTime:-110559440
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:DIN-Black
+OutlineFileName:/Users/mariebourg/Desktop/ECURIE_JO/ASS2_ECURIE_JO/Document fonts/FFDIN
+ResourceID:14462
+MacStyle:0
+FileLength:139478
+FileModTime:-110559440
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:DIN-BoldAlternate
+OutlineFileName:/Users/mariebourg/Desktop/ECURIE_JO/ASS2_ECURIE_JO/Document fonts/FFDIN
+ResourceID:14466
+MacStyle:0
+FileLength:139478
+FileModTime:-110559440
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:DIN-LightAlternate
+OutlineFileName:/Users/mariebourg/Desktop/ECURIE_JO/ASS2_ECURIE_JO/Document fonts/FFDIN
+ResourceID:14463
+MacStyle:0
+FileLength:139478
+FileModTime:-110559440
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:DIN-MediumAlternate
+OutlineFileName:/Users/mariebourg/Desktop/ECURIE_JO/ASS2_ECURIE_JO/Document fonts/FFDIN
+ResourceID:14465
+MacStyle:0
+FileLength:139478
+FileModTime:-110559440
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:DIN-RegularAlternate
+OutlineFileName:/Users/mariebourg/Desktop/ECURIE_JO/ASS2_ECURIE_JO/Document fonts/FFDIN
+ResourceID:14464
+MacStyle:0
+FileLength:139478
+FileModTime:-110559440
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:DIN-BlackAlternate
+OutlineFileName:/Users/mariebourg/Desktop/ECURIE_JO/ASS2_ECURIE_JO/Document fonts/FFDIN
+ResourceID:14467
+MacStyle:0
+FileLength:139478
+FileModTime:-110559440
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BlowBrush
+FamilyName:BlowBrush
+StyleName:Regular
+MenuName:BlowBrush
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:BlowBrush
+WritingScript:Roman
+OutlineFileName:/Users/mariebourg/Desktop/ECURIE_JO/ASS2_ECURIE_JO/Document fonts/blowbrush.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:51972
+FileModTime:476657552
+NameArray:0,Mac,4,BlowBrush
+NameArray:0,Win,1,BlowBrush
+%EndFont
+

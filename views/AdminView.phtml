@@ -1,0 +1,35 @@
+<h2>Page administrateur</h2>
+<nav>
+    <ul class="navAdmin">
+        <li><a href="?page=logout"><i class="fas fa-sign-out-alt"></i> Deconnexion</a></li>
+        <li><a href="?page=editAdmin"><i class="fas fa-user-edit"></i> Modifier votre compte</a></li>
+    </ul>
+</nav>
+<section class="section_admin">
+    <h3>Affichage des réservations</h3>
+    <p>Pour voir le détail du client, cliquer sur son nom</p>
+    <input type="text" name="action" value="selectOrderBy" hidden>
+    <label for="selectOrderBy">Trier par :</label>
+    <select name="selectOrderBy" id="selectOrderBy" value="come">
+        <option value="come">Date d'arrivée</option>
+        <option value="creationDate">Date de réservation</option>
+        <option value="lastName">Nom</option>
+    </select>
+    <table id="bookingArray">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Date d'arrivée</th>
+                <th>Date d'enregistrement de la réservation</th>
+                <th>Supprimer</th>
+            </tr>
+        </thead>
+        <tbody>
+                
+        </tbody>
+    </table>
+    <div id="btn_delete">
+        <button>supprimer les contacts selectionnés</button>
+    </div>
+</section>

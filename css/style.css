@@ -1,0 +1,781 @@
+/*GLOBAL */
+
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    margin: 0;
+    font-family: 'ArialMTPro', sans-serif;
+}
+img {
+	max-width: 100%;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+h2 {
+    font-size: 4rem;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+h3 {
+    font-family: "Bilbo Swash Caps", cursive, sans-serif;
+    font-size: 3.8rem;
+    text-align: center;
+}
+h1, h2 {
+    font-family: 'Brilliantte';
+}
+.nav_footer {
+    font-family: "Bilbo Swash Caps", cursive, sans-serif;
+    font-weight: bold;
+}
+iframe {
+    width: 100%;
+    box-shadow: 0 0 30px grey;
+}
+.error {
+    color: red;
+    text-align: center;
+}
+.message {
+    color: green;
+    text-align: center;
+}
+table {
+    max-width: 90%;
+}
+@font-face {
+    font-family: "ArialMTPro";
+    src: url('../fonts/ArialMTPro-LightCond.otf');
+}
+@font-face {
+    font-family: "boton";
+    src: url('../fonts/Boton\ Medium.ttf');
+}
+@font-face {
+    font-family: "Brilliantte";
+    src: url('../fonts/Brilliantte\ Personal\ Use\ Only.otf')
+}
+section {
+    border-bottom: double thick #2F1B0C;
+}
+
+/*HEADER*/
+
+.header_container {
+    background-image: url("../img/AdobeStock_67589520.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 180%;
+    position: relative;
+    overflow: hidden;
+    background-color: #2F1B0C;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header {
+    font-family: "Bilbo Swash Caps", cursive, sans-serif;
+    text-align: center;
+}
+#linkFb {
+    display: none;
+}
+header .fa-facebook-square {
+    color: #D9A67A;
+    font-size: 3rem;
+}
+#opacite {
+    position: absolute;
+    width: 150%;
+    left: -120px;
+    top: 0;
+    max-width: none;
+    z-index: 1;
+}
+.logo_title {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    font-weight: lighter;
+    color: #FFDEAD;
+    text-shadow: 2px 2px 2px black;
+    display: block;
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 20px;
+}
+.logo_img {
+    width: 75px;
+    display: block;
+    margin: 0 auto;
+    z-index: 100;
+    position: inherit;
+}
+#ecuries {
+    font-size: 4rem;
+    font-family: "boton";
+    display: block;
+    font-weight: bold;
+
+}
+
+/* NAV */
+
+.nav_header {
+    border-top: 0.5rem solid #2F1B0C;
+    padding: 10px 0;
+    font-size: 2.5rem;
+    width: 100%;
+}
+.nav_header li {
+    padding: 10px;
+}
+.nav_header li:active {
+    background-color: #462A1E;
+}
+.nav_header li:active a {
+    color: #E4C597;
+}
+.nav_header ul {
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+.nav_header a {
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    color: #5B483A;
+}
+
+/* MAIN */
+
+body {
+    background-image: url('../img/titre_fond.png');
+    background-size: 200%;
+    background-attachment: fixed;
+    background-position: center;
+}
+.container {
+    background-color: whitesmoke;
+    max-width: 95%;
+    padding: 15px;
+    margin: 25px auto;
+    box-shadow: 0 0 4px grey;
+    color: #2F1B0C;
+}
+#facebook i {
+    margin-left: 30px;
+    vertical-align: middle;
+}
+.contact-us {
+    border-top: thick double #2F1B0C;
+}
+.fab {
+    font-size: 3rem;
+    color: #3B559B;
+}
+
+/* HOME */
+
+.section_home>img {
+    border: solid #2F1B0C 2px;
+}
+.section_home>p {
+    text-align: center;
+}
+
+/* CAROUSEL */
+
+.section_home ul {
+    font-size: 3rem;
+}
+.text-carousel p {
+    line-height: 3rem;
+    margin: 0;
+}
+.text-carousel {
+    vertical-align: top;
+}
+.img-carousel {
+    padding: 10%;
+}
+.item {
+    border: none;
+    max-height: 300px;
+}
+.owl-nav {
+    text-align: center;
+    font-size: 3rem;
+}
+.owl-nav button {
+    margin: 0 30px;
+}
+
+/* EQUIPE */
+
+.section_team article {
+    overflow: hidden;
+    border: none;
+    margin: 30px 5%;
+}
+.section_team img {
+    margin: 10px;
+    width: 40%;
+    border-radius: 50%;
+    border: solid 1px #2F1B0C;
+}
+.section_team article:nth-child(odd) img {
+    float: right;
+}
+.section_team article p {
+    text-align: justify;
+}
+.section_team article:nth-child(even) img {
+    float: left;
+}
+
+/* PRESTATIONS */
+
+#horse_eat {
+    display: block;
+    margin: 20px auto;
+}
+form {
+    margin: 20px 0;
+}
+label {
+    font-weight: bold;
+}
+form ul {
+    padding: 0;
+}
+form li {
+    list-style: none;
+    margin: 8px auto;
+    text-align: center;
+    vertical-align: top;
+}
+label {
+    display: block;
+    margin: 0 15%;
+}
+form input, select {
+    padding: 5px;
+    border: none;
+    width: 80%;
+    margin: 0 10%;
+    background-color: #FFDEAD;
+}
+fieldset {
+    border: solid 2px #2F1B0C;
+}
+form button {
+    padding: 12px;
+    background-color: #2F1B0C;
+    color: #AE8964;
+    margin-top: 15px;
+    cursor: pointer;
+    border: solid 1px #AE8964;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 3px 3px 5px #999;
+}
+.reservation ol {
+    text-align: center;
+    padding: 0;
+}
+
+/* INSTALLATIONS */
+
+.section_instal {
+    text-align: center;
+}
+.section_instal span {
+    font-size: 2.5rem;
+}
+.section_instal article {
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+.manege {
+    justify-content: space-around;
+}
+.section_instal img {
+    width: 60%;
+    height: 60%;
+    border: 2px solid #2F1B0C;
+    margin: 0 20px;
+}
+.section_instal p {
+    vertical-align: middle;
+    text-align: justify;
+}
+
+/* GALERIE PHOTOS */
+
+.section_galery .item {
+    max-height: none;
+}
+.section_galery h4 {
+    font-size: 3rem;
+    text-align: center;
+}
+#galery_random {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+#galery_random img {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    max-width: 200px;
+    max-height: 200px;
+}
+.section_galery aside {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.section_galery p {
+    text-align: justify;
+}
+
+/* LOGIN + EDIT */
+
+.btn_confirm {
+    display: block;
+    text-align: center;
+}
+.section_edit li {
+    display: block;
+}
+
+/* ADMIN */
+
+#linkBooking {
+    text-decoration: underline;
+}
+.navAdmin {
+    list-style: none;
+}
+.navAdmin li {
+    margin: 5px 0;
+}
+.navAdmin a {
+    color: #2F1B0C;
+}
+#btn_delete {
+    text-align: center;
+}
+#btn_delete button {
+    cursor: pointer;
+}
+table {
+    margin: 15px auto;
+    width: 90%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid #643d08;
+    padding: 3px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+table a {
+    color: #2F1B0C;
+}
+
+/* SHOWBOOKING */
+
+.customerList {
+    margin-left: 5%;
+}
+.customerList span {
+    font-weight: bold;
+    color: black;
+}
+.customerList li {
+    margin: 5px 0;
+}
+
+/* FOOTER */
+
+footer {
+    border-top: solid 3px #2F1B0C;
+    padding-bottom: 10px;
+    background: linear-gradient(whitesmoke, grey);
+}
+footer div {
+    text-align: center;
+}
+.nav_footer ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0 8px;
+    margin-bottom: 0;
+}
+.nav_footer li {
+    font-size: 1.1rem;
+    text-align: center;
+    justify-content: space-between;
+    display: inline-block;
+    margin: 4px;
+}
+.nav_footer a {
+    color: #2F1B0C;
+}
+.nav_footer i {
+    display: block;
+}
+#adress_footer {
+    padding: 0 8px;
+    font-size: 1.2rem;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+footer li {
+    margin: 0 10px;
+    display: inline-block;
+    justify-content: center;
+}
+footer .fab {
+    font-size: 4rem;
+}
+#logo_ffe {
+    width: 60px;
+}
+
+/* AFFICHAGE MOBILE GRD ECRAN */
+
+@media (min-width: 400px) {
+
+    .header_container {
+        background-size: 170%;
+    }
+    #linkFb {
+        display: block;
+        float: right;
+        margin-right: 20px;
+        z-index: 100;
+        position: inherit;
+    }
+    .logo_img {
+        width: 100px;
+    }
+    .logo_title {
+        font-size: 3.5rem;
+        margin-top: 30px;
+    }
+}
+/*AFFICHAGE TABLETTE*/
+
+@media (min-width: 600px) {
+
+    body {
+        background-size: 110%;
+    }
+    h2 {
+        text-align: left;
+    }
+    #linkFb {
+        display: block;
+        float: right;
+        margin-right: 20px;
+        z-index: 100;
+        position: inherit;
+    }
+    header {
+        background-image: url("../img/AdobeStock_67589520.jpeg");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 171%;
+        background-color: #462A1E;
+        background-attachment: fixed;
+        font-family: "Bilbo Swash Caps", cursive, sans-serif;
+        text-align: center;
+    }
+    .header_container {
+        background-color: transparent;
+        background-image: none;
+        background-size: 155%;
+    }
+    .logo_title {
+        margin-top: 20px;
+        margin-right: 108px;
+        margin-bottom: 63px;
+        font-size: 4rem;
+    }
+    .logo_img {
+        margin-top: 20px;
+        width: 100px;
+        height: 100px;
+    }
+    #opacite {
+        width: 130%;
+        left: -5%;
+        top: -25%;
+    }
+    
+    /* NAV */
+    
+    .nav_header a {
+        font-size: 2rem;
+        letter-spacing: 0;
+    }
+    .nav_header {
+        background: linear-gradient(
+            rgb(0, 0, 0, 0.60),
+            rgb(0, 0, 0, 0.60)
+        );
+        border-top: none;
+        padding: 0;
+        font-size: 3rem;
+    }
+    .nav_header ul {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+    .nav_header ul a {
+        font-weight: normal;
+        color: #FFDEAD;
+    }
+
+    /* MAIN */
+
+    .container {
+        padding: 25px;
+        background-size: 150%;
+        box-shadow: 0 0 10px grey;
+        max-width: 90%;
+    }
+
+    #horse_eat {
+        display: block;
+        float: right;
+        width: 40%;
+        margin: 20px;
+    }
+    #add_admin {
+        display: block;
+        text-align: right;
+    }
+    .section_instal article {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .section_instal img {
+        width: 20%;
+        height: 20%;
+    }
+    .section_instal h3 {
+        text-align: left;
+        margin-left: 30px
+    }
+    .section_instal p {
+        font-size: 2.5rem;
+    }
+    .section_home>p {
+        font-size: 3rem;
+    }
+    .section_home>img {
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+    }
+    .section_team img {
+        margin: 25px;
+        width: 25%;
+    }
+    .section_team article {
+        margin: 30px 10%;
+    }
+
+    /* CAROUSEL */
+
+    .text-carousel, .img-carousel {
+        display: inline-block;
+        width: 50%;
+    }
+    .img-carousel {
+        padding: 0 10%;
+    }
+
+    /* FORMULAIRE */
+
+    form li {
+        display: inline-block;
+        width: 49%;
+    }
+    #address {
+        width: 180%;
+    }
+    .section_login li {
+        display: block;
+    }
+
+    /* FOOTER */
+
+    .nav_footer ul {
+        display: flex;
+        justify-content: center;
+    }
+    .nav_footer li {
+        margin: 0 10px;
+        font-size: 1.6rem;
+    }
+}
+
+/*AFFICHAGE DESKTOP*/
+
+@media(min-width: 800px) {
+
+    /*HEADER*/
+
+    header {
+        background-size: 131%;
+    }
+    .logo_title {
+        margin: 10px 125px;
+    }
+    .header_container {
+        margin: auto;
+        max-width: 1200px;
+    }
+    .logo_title {
+        font-size: 6rem;
+    }
+    #ecuries {
+        font-size: 8rem;
+    }
+    .logo_img {
+        height: 150px;
+        transition: all 0.2s ease 0s;
+    }
+    .logo_img:hover {
+        transform: scale(1.1);
+    }
+    header .fa-facebook-square {
+        transition: all 0.2s ease 0s;
+    }
+    header .fa-facebook-square:hover {
+        transform: scale(1.3);
+    }
+
+    /* NAV */
+
+    .nav_header {
+        font-family: "Bilbo Swash Caps", cursive, sans-serif;
+        border-top: none;
+        padding: 0;
+        font-size: 2.5rem;
+    }
+    .nav_header ul {
+        max-width: 1200px;
+        margin: 0 auto;
+        list-style: none;
+        padding-top: 2px;
+    }
+    .nav_header a {
+        font-size: 2.5rem;
+        padding: 10px;
+        transition: all 0.3s ease 0s;
+        line-height: 0;
+    }
+    .nav_header li:hover a {
+        color: white;
+        font-size: 3rem;
+    }
+
+    /* MAIN */
+
+    main {
+        padding: 20px;
+    }
+    h2  {
+        font-size: 5rem;
+    }
+    h3 {
+        font-size: 4rem;
+    }
+    .contact-us {
+        padding: 10px 50px;
+    }
+    section {
+        padding: 25px;
+        font-size: 2rem;
+    }
+    .nav_header li:active {
+        background-color: transparent;
+    }
+    #confirmBooking {
+        transition: all 0.5s;
+    }
+    #confirmBooking:hover {
+        opacity: 0.8;
+    }
+
+        /* ADMIN */
+
+    #selectOrderBy {
+        width: 15%;
+    }   
+    th, td {
+        padding: 5px;
+        font-size: 1em;
+    }
+}
+
+/* AFFICHAGE GRD ECAN */
+
+@media(min-width: 1024px) {
+
+    header {
+        background-size: contain;
+    }  
+    .logo_title {
+        margin: 10px 225px;
+    } 
+    #opacite {
+        width: 120%;
+        top: -44%;
+    }
+    .container {
+        padding: 50px;
+        width: 95%;
+        max-width: 1200px;        
+    }
+
+     /* GALERIE PHOTOS */
+    
+     .section_galery article, .section_galery aside {
+        width: 50%;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 20px;
+    }
+
+}
+
+@media(min-width: 1250px) {
+    .header_container {
+        padding: 60px 0;
+    }
+}
