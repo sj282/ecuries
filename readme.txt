@@ -1,0 +1,2 @@
+Mon projet de validation est également amené à finir en prod
+Je n'ai actuellement pas la totalité du contenu c'est la raison pour laquelle il y a encore de nombreux "lorem ipsum" et de photos identiques un peu partout

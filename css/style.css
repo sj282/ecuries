@@ -409,6 +409,14 @@ table a {
     margin: 5px 0;
 }
 
+/* MENTIONS LEGALES */
+
+.section_legal h3 {
+    text-align: left;
+    font-family: 'ArialMTPro', sans-serif;
+    font-size: 2rem;
+}
+
 /* FOOTER */
 
 footer {
@@ -418,6 +426,12 @@ footer {
 }
 footer div {
     text-align: center;
+}
+footer ul {
+    text-align: center;
+}
+footer small a {
+    color: black;
 }
 .nav_footer ul {
     display: flex;

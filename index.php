@@ -60,6 +60,10 @@ if (empty($_POST))
                 $controller = new HomeController;
                 $controller->showGaleryPage();
             break;
+            case 'legal':
+                $controller = new HomeController;
+                $controller->showLegalNoticePage();
+            break;
             case 'contact':
                 $controller = new HomeController;
                 $controller->showContactPage();

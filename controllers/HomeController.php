@@ -59,4 +59,10 @@ class HomeController
         $template = 'Contact';
         include 'layout.phtml';
     }
+
+    public function showLegalNoticePage()
+    {
+        $template = 'LegalNotice';
+        include 'layout.phtml';
+    }
 }
