@@ -1,5 +1,17 @@
 /*GLOBAL */
 
+@font-face {
+    font-family: "ArialMTPro";
+    src: url('../fonts/ArialMTPro-LightCond.otf');
+}
+@font-face {
+    font-family: "boton";
+    src: url('../fonts/Boton\ Medium.ttf');
+}
+@font-face {
+    font-family: "Brilliantte";
+    src: url('../fonts/Brilliantte\ Personal\ Use\ Only.otf')
+}
 * {
     box-sizing: border-box;
 }
@@ -50,18 +62,6 @@ iframe {
 }
 table {
     max-width: 90%;
-}
-@font-face {
-    font-family: "ArialMTPro";
-    src: url('../fonts/ArialMTPro-LightCond.otf');
-}
-@font-face {
-    font-family: "boton";
-    src: url('../fonts/Boton\ Medium.ttf');
-}
-@font-face {
-    font-family: "Brilliantte";
-    src: url('../fonts/Brilliantte\ Personal\ Use\ Only.otf')
 }
 section {
     border-bottom: double thick #2F1B0C;
@@ -377,6 +377,7 @@ form button {
 }
 #btn_delete {
     text-align: center;
+    margin-bottom: 2rem;
 }
 #btn_delete button {
     cursor: pointer;
@@ -496,6 +497,7 @@ footer .fab {
         margin-top: 30px;
     }
 }
+
 /*AFFICHAGE TABLETTE*/
 
 @media (min-width: 600px) {
@@ -553,8 +555,8 @@ footer .fab {
     }
     .nav_header {
         background: linear-gradient(
-            rgb(0, 0, 0, 0.60),
-            rgb(0, 0, 0, 0.60)
+            rgba(0, 0, 0, 0.60),
+            rgba(0, 0, 0, 0.60)
         );
         border-top: none;
         padding: 0;
@@ -579,7 +581,6 @@ footer .fab {
         box-shadow: 0 0 10px grey;
         max-width: 90%;
     }
-
     #horse_eat {
         display: block;
         float: right;

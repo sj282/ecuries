@@ -42,7 +42,7 @@ class AdminController
             break;
         };
 
-        $template = 'showBooking';
+        $template = 'ShowBooking';
         include 'layout.phtml';
     }
 

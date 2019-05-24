@@ -5,7 +5,7 @@ class LogoutController
     public function logout()
     {
         session_destroy();
-        $template = 'login';
+        $template = 'Login';
         include 'layout.phtml';
         exit();
     }

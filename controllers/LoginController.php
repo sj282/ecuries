@@ -4,7 +4,7 @@ class LoginController
 {
     public function showLoginPage()
     {
-        $template = 'login';
+        $template = 'Login';
         include 'layout.phtml';
     }
 
@@ -31,7 +31,7 @@ class LoginController
                 //Mauvais identifiants
                 $_SESSION['error'] = 'Identifiants incorrects';
 
-                $template = 'login';
+                $template = 'Login';
                 include 'layout.phtml';
             }
         }
@@ -43,7 +43,7 @@ class LoginController
         $model = new AdminModel;
         $adminLogin = $model->adminLogin($adminId);
 
-        $template = 'editLogin';
+        $template = 'EditLogin';
         include 'layout.phtml';
     }
 
@@ -58,7 +58,7 @@ class LoginController
                 $model = new AdminModel;
                 $adminLogin = $model->editLogin($formField, $_SESSION['user']['id']);
     
-                $template = 'editLogin';
+                $template = 'EditLogin';
                 include 'layout.phtml';
             } else {
                 $adminId = $_SESSION['user']['id'];
@@ -67,7 +67,7 @@ class LoginController
                 //Les 2 champs mdp ne sont pas identiques
                 $_SESSION['error'] = 'Vous n\'avez pas indiqué le même mot de passe dans les deux champs';
 
-                $template = 'editLogin';
+                $template = 'EditLogin';
                 include 'layout.phtml';
             }
         }
