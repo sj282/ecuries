@@ -22,12 +22,13 @@ class BookingModel
 
     public function showBookings($filter)
     {
-
+        
         $db = getConnection();
 
         $query = $db->prepare('SELECT *
                                 FROM booking
                                 ORDER BY ' . $filter);
+        
         $query->execute();
         $bookings = $query->fetchAll();
 

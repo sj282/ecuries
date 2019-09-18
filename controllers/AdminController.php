@@ -18,12 +18,27 @@ class AdminController
         }
     }
 
+ 
+
     public function showBookingData($filter)
     {
-        $model = new BookingModel;
-        $bookings = $model->showBookings($filter);
+        $model = new BookingModel; 
+        switch($filter)
+        {
+            case 1 : 
+                $bookings = $model->showBookings('come');
+            break;
+            case 2 :
+                $bookings = $model->showBookings('creationDate');
+            break;
+            case 3 :
+                $bookings = $model->showBookings('lastName');
+            break;
+        };
         include 'views/BookingDataView.phtml';
     }
+
+   
 
     public function showOneBooking($id)
     {
@@ -43,6 +58,7 @@ class AdminController
         };
 
         $template = 'ShowBooking';
+
         include 'layout.phtml';
     }
 
