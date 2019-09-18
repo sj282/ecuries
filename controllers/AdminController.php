@@ -18,8 +18,6 @@ class AdminController
         }
     }
 
- 
-
     public function showBookingData($filter)
     {
         $model = new BookingModel; 

@@ -3,3 +3,5 @@ Je n'ai actuellement pas la totalité du contenu c'est la raison pour laquelle i
 la fonction qui permet d'acceder à la bdd se trouve dans connection.php
 pour se connecter en admin: e-mail => admin@admin.fr
                             mdp => 0000
+
+Version corrigée -> modifiaction de la fonction "showBookings"
